@@ -10,7 +10,7 @@ Nr = 16:8:128; % Number of receiving antennas from 16 to 128 in multiples of 8
 for j=1:length(Nr)  % from 1 to total number of multiples of Nr
     N=Nr(j); % Picking current value of Nr
 
-    for k=1:20000 % # of Trials
+    for k=1:1000000 % # of Trials
 %         UNCOMMENT ONE OF THE FOLLOWING:
         BERCalcLOSLEO; % BERCalc.m Program
 %         BERCalcLOSHAPS; % BERCalc.m Program
